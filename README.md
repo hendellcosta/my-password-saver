@@ -19,9 +19,9 @@ Clone down this repository. You will need `node` and `npm` installed globally on
 
 Run:
 
-`git clone https://github.com/hendellcosta/password-generator.git`
+`git clone https://github.com/hendellcosta/my-password-saver.git`
 
-`cd password-generator`
+`cd my-password-saver`
 
 Installation:
 
