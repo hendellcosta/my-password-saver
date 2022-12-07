@@ -9,6 +9,7 @@ function PassInfo() {
             <li>- Contains numbers.</li>
             <li>- Contains symbols like: /_*</li>
             <li>- No usual words or sentences.</li>
+            <li>- 99% secure (we're searching for that 1%).</li>
             </ul>    
     </div>
   )

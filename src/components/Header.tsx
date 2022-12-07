@@ -16,8 +16,8 @@ function Header() {
         <Link to="/my-passwords" className="cursor-pointer">
           My Passwords
         </Link>
-        <Link to="/log-in" className="cursor-pointer">
-          Log In
+        <Link to="/sign-in" className="cursor-pointer">
+          Sign In
         </Link>
       </ul>
     </div>
@@ -29,7 +29,7 @@ function Header() {
   }
 
   return (
-    <header className="flex flex-row justify-between px-5 py-6 sm:px-40 sm:py-6 items-center border border-b-2 text-lg w-full">
+    <header className="flex flex-row justify-between px-5 py-6 sm:px-36 sm:py-6 items-center border border-b-2 text-lg w-full">
       <Link to="" className="flex flex-row font-bold sm:text-lg text-sm">
         <a href="" className="text-red-500 font-black">
           My
@@ -44,10 +44,10 @@ function Header() {
         <Link to="/my-passwords" className="cursor-pointer flex sm:text-lg text-sm">
           My Passwords
         </Link>
-        <Link to="/log-in" className="cursor-pointer hidden sm:flex">
-          Log In
+        <Link to="/sign-in" className="cursor-pointer hidden sm:flex">
+          Sign In
         </Link>
-        <Link to="/log-in" className="cursor-pointer sm:hidden flex">
+        <Link to="/sign-in" className="cursor-pointer sm:hidden flex">
           <CiLogin />
         </Link>
       </span>
